@@ -1,0 +1,24 @@
+td .flags{
+    width: 50px;
+    height: 25px;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+td,th {
+    width: 130px;
+}
+
+td {
+    height: 30px;
+}
+
+table{
+    table-layout:fixed;
+}
+
+*{
+
+}

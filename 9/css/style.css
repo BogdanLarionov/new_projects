@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post {
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  transition: background-color 0.5s, height 0.5s ease;
+  transition-delay: 0.5s;
+}
+
+.post:hover {
+  background-color: bisque;
+  height: 250px;
+}
+.info {
+  background-color: blue;
+  height: 0;
+  width: 0;
+  transition: height 0.5s, width 0.5s;
+}
+
+.post:hover .info {
+  height: 20px;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  position: relative;
+}
+
+.new_product_first::after {
+  content: "NEW";
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: aliceblue;
+  position: absolute;
+  top: 5px;
+  right: -25px;
+}
+
+.new_product_second::before {
+  /* content: "PRODUCT"; */
+  /* content: attr(class);   */
+  /* подтянит название класса! */ /* card new_product_second */
+  content: attr(data-content);
+
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: aliceblue;
+  position: absolute;
+  /* bottom: 5px;
+  right: -25px; */
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+  min-width: 50px;
+  padding: 0 5px;
+}
+
+[data-contents]:after {
+  content: attr(data-contents);
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+  min-width: 50px;
+  padding: 0 5px;
+}

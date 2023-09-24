@@ -1,0 +1,37 @@
+.p1{
+    color:red
+}
+.p2{
+    background-color: aqua;
+    width: 150px;
+}
+#p3{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+.red{
+    color: green;
+    background-color: yellow;
+}
+.span{ 
+    /* span - текстовый контейнер */
+color: bisque;
+font-size: smaller;
+}
+.bold:hover{
+    font-weight: 900;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+p{
+    background-color: blueviolet;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    
+}

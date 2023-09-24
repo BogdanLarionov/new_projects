@@ -1,0 +1,24 @@
+#main p{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#main .about_me{
+    background-color: #2ecc71;
+}
+
+#main .lesson{
+    background-color: #e74c3c;
+}
+#films ol{
+list-style: lower-greek;
+}
+    
+    #films li{
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    ul li{
+       list-style: none;
+    }

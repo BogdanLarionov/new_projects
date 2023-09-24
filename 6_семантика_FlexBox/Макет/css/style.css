@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7644DA;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    font-size: 32px;
+    color: aqua;
+}
+
+.account{
+    font-size: 24px;
+    color: aqua;
+}
+
+.menu_item{
+    font-size: 19px;
+    color:#87cefa;
+}
+
+.menu_item:hover{
+    color:orange;
+}

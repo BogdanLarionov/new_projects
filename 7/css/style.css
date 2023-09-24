@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 60px;
+    background-color: hwb(60 86% 4%);
+}
+
+nav ul{
+    display: flex;
+    /* justify-content:space-around; */
+  list-style: none;
+}
+
+/* nav ul li{
+    padding: 20px;
+} */
+nav ul li a{
+    padding: 20px;
+    /* transition:background-color 0.5s;
+    transition:box-shadow 0.5s; */
+    transition:background-color 0.5s,
+                box-shadow 0.5s;
+}
+
+nav ul li a:hover, img:hover{
+    background-color: blueviolet;
+    box-shadow: 10px 10px 5px black;
+}
+
+nav .logo {
+    height: 50px;
+    width: 50px;
+}
+
+.page{
+    height: 100vh;
+    /* vh  - высота блока*/
+    /* vw  - ширина блока*/
+}
+
+#about_us{
+    background-color: brown;
+}
+#products{
+    background-color: green;
+}
+#contacts{
+    background-color: yellow;
+}
