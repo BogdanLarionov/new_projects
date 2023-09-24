@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  overflow-y: hidden;
+  /* Добавить анимированный переход при увеличении картинки продолжительность анимации 0.4 секунды */
+  transition: transform 0.4s cubic-bezier(0.93, -0.63, 0, 1.8);
+  /* ease; */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  /* transform: translateY(100%); */
+  transition: scale(0);
+  transition: transform 0.5s;
+  /* ---- */
+  transition-delay: 0.3s;
+  /* Добавить задержку выполнения анимации на 0.3s */
+}
+
+/* .card:hover .info {
+  transform: translateY(0);
+} */
+
+.card:hover {
+  /* Добавить эффект увеличения карточки на 10% при наведении на нее */
+  /* transform: scale(1.1); */
+  /* 
+  Увеличиваем масштаб */
+  /* transform: rotate(0.5turn); */
+  transform: rotate(360deg);
+}
+
+/* Изминить функцию анимации таким оброзом, чтобы карточка во время работы анимации в начале немного уменьшилась, потом выросла больше чем на 10% потом вернулась к 10% */
