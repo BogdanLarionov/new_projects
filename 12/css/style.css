@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .main {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+ */
+
+/* ---------- */
+
+/* .main {
+  background-color: black;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.div {
+  left: 0;
+  top: 0;
+}
+
+.div_2 {
+  top: 100px;
+  left: 100px;
+}
+.div_3 {
+  top: 200px;
+  left: 200px;
+}
+.div_4 {
+  top: 300px;
+  left: 100px;
+}
+.div_5 {
+  top: 400px;
+  left: 0;  
+} */
+/* ---------- */
+/* .main {
+  background-color: black;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.div_1 {
+  left: 0;
+  top: 0;
+}
+
+.div_2 {
+  top: 100px;
+  left: 100px;
+}
+.div_3 {
+  top: 0;
+  right: 0;
+}
+.div_4 {
+  top: 100px;
+  right: 100px;
+}
+.div_5 {
+  bottom: 0;
+  left: 0;
+}
+.div_6 {
+  bottom: 100px;
+  left: 100px;
+}
+
+.div_7 {
+  right: 0;
+  bottom: 0;
+}
+
+.div_8 {
+  top: 400px;
+  right: 100px;
+}
+
+.center {
+  background-color: blanchedalmond;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  } 
+  /* выровнили п о центрку */
+
+/* ---------- */
+
+/* .main {
+  background-color: black;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.div_1 {
+  bottom: 50%;
+  right: 50%;
+}
+.div_2 {
+  bottom: 50%;
+  left: 50%;
+}
+
+.div_3 {
+  top: 50%;
+  right: 50%;
+}
+
+.div_4 {
+  top: 50%;
+  left: 50%;
+}
+
+.div_5 {
+  left: 50%;
+  top: 50%;
+  transform: translate(100%, 100%);
+}
+.div_6 {
+  top: 50%;
+  right: 50%;
+  transform: translate(-100%, 100%);
+}
+
+.div_7 {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(100%, -100%);
+}
+
+.div_8 {
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-100%, -100%);
+}
+
+.center {
+  background-color: red;
+  transform: translate(50%, 50%);
+  bottom: 50%;
+  right: 50%;
+} */
+
+/* --------- */
+
+/* .section {
+  display: flex;
+}
+.main {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin: 20px;
+  position: relative;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.close:hover {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+} */
+
+/* --------- */
+
+body {
+  background-color: greenyellow;
+  /* position: relative; */
+}
+
+.main {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: aliceblue;
+  line-height: 20px;
+}
+
+.block-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.block-2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+}
+
+.block-3 {
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.block-4 {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+}
+
+.block-5 {
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
