@@ -10,7 +10,7 @@
     <form action="">
       <label>
         <p>Введите email:</p>
-        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Email" class="inputText" />
       </label>
       <!-- <input type="email" placeholder="Email" /> -->
 
@@ -40,20 +40,49 @@
       <p>На какой ОС хотите работать?</p>
 
       <label for="">
-        <input type="checkbox" name="operationg_systems" />Linux
+        <input type="checkbox" name="operationg_systems" value="linux" />Linux
       </label>
 
       <label for="">
-        <input type="checkbox" name="operationg_systems" /> Windows
+        <input type="checkbox" name="operationg_systems" value="windows" />
+        Windows
       </label>
 
       <label for="">
-        <input type="checkbox" name="operationg_systems" /> MacOS
+        <input type="checkbox" name="operationg_systems" value="macos" /> MacOS
       </label>
 
       <br />
+
+      <label for="">
+        <p>В каком городе я живу?</p>
+        <input type="radio" name="cities" value="berlin" /> Berlin
+        <input type="radio" name="cities" value="alicante" /> Alicante
+        <input type="radio" name="cities" value="milan" /> MILAN
+      </label>
+
+      <br />
+
+      <textarea name="" id="" cols="30" rows="10">
+        css -  свойства
+         textarea{
+          resize: none;
+      } -- чтобы не увеличивалось окно!
+
+      cols="30" rows="10" - лучше задавать эти параметры через css
+      </textarea>
       <br />
       <button type="submit">Submit</button>
     </form>
   </body>
 </html>
+
+<!-- 
+  ключ-(name): значение-(value)
+  ключ - name="operationg_systems"  - значение: value="macos"
+
+
+     type - определяет назначение инпута;
+      name - определяет к какой группе относится инпут (для работы c формой в JS);
+      value - определяет передаваемое значение (для работы c формой в JS);
+    -->

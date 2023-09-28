@@ -1,5 +1,18 @@
+.inputText:focus {
+  outline: none;
+  border-color: red;
+  color: blue;
+  background-color: black;
+}
+
 .text {
   display: inline;
   /* display: inline-block; */
   color: red;
 }
+
+/* textarea {
+  resize: none;
+  width: 10px;
+  height: 20px;
+} */
