@@ -75,6 +75,9 @@ body {
   cursor: pointer;
   /* border: none; */
   background: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
 }
 
 .reg_btn {
@@ -82,6 +85,8 @@ body {
   background-color: #f9e44e;
   margin: 2px 0;
   border: 1px solid transparent;
+  text-decoration: none;
+  color:black
 }
 
 .log_btn {
