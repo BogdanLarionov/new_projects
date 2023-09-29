@@ -64,6 +64,11 @@ body {
   padding-left: 10px;
 }
 
+.res_pas {
+  text-decoration: none;
+  margin: 15px 0 15px 210px;
+}
+
 .form_btn {
   width: 100%;
   margin: 2px 0;
@@ -86,7 +91,7 @@ body {
   margin: 2px 0;
   border: 1px solid transparent;
   text-decoration: none;
-  color:black
+  color: black;
 }
 
 .log_btn {
