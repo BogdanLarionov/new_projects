@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+form {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+button {
+  color: #feca57;
+  border: 2px solid #feca57;
+  padding: 5px 20px;
+  background-color: white;
+  transition: color, background-color box-shadow;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  color: white;
+  background-color: #feca57;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid gray;
+  transition: color, background-color box-shadow;
+}
+
+input:focus-visible {
+  outline: none;
+  border-bottom: 2px solid #feca57;
+}
+
+input:focus {
+  transition: box-shadow;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* Добавить стили таким образом, чтобы при переключении на кнопку не появлялась рамка, а вместо нее возникала тень у кнопки (box-shadow) */
+
+.form_2 {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+}
