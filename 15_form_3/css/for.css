@@ -1,0 +1,45 @@
+/* Добавить стили таким образом, чтобы при переключении на кнопку не появлялась рамка, а вместо нее возникала тень у кнопки (box-shadow) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form_2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+  width: 300px;
+  /* position: relative;
+   */
+  /* align-items: flex-end; */
+}
+
+input {
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+  transition: box-shadow 0.5s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 5px 5px 10px black;
+}
+
+button {
+  border: 2px solid black;
+  background-color: white;
+  padding: 5px;
+  width: 50%;
+  /* position: absolute;
+  top: 100%;
+  left: 50%; */
+  align-self: flex-end;
+  transition: box-shadow 0.5s;
+}
