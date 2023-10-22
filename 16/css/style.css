@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 350px;
+  border: 1px solid gray;
+  padding: 16px;
+  margin: 20px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.form_cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form_title {
+  width: 100%;
+  /* width: 316px; */
+  margin: 15px 0;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.form_input {
+  width: 100%;
+  height: 40px;
+  margin: 2px 0;
+  padding: 14px 18px;
+  border-radius: 13px;
+  /* border: none; */
+  border: 1px solid gray;
+}
+
+.form_input:focus {
+  outline: none;
+  border-color: #f9e44e;
+}
+
+.form_info_text {
+  margin: 15px 0;
+  color: grey;
+  font-size: 13px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.form_reset_password_text {
+  margin: 15px 0;
+  color: grey;
+  font-size: 13px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: end;
+  text-decoration: none;
+}
+
+.res_pas {
+  text-decoration: none;
+  margin: 15px 0 15px 210px;
+}
+
+.form_btn {
+  width: 100%;
+  margin: 2px 0;
+  height: 40px;
+  border-radius: 12px;
+  /* padding: 14px 24px; */
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  /* border: none; */
+  background: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.redirect_btn {
+  border: none;
+  /* background-color: #f9e44e; */
+  margin: 2px 0;
+  /* border: 1px solid transparent; */
+  text-decoration: none;
+  color: black;
+  border: 1px solid #cfd8dc;
+}
+
+.log_btn {
+  border: 1px solid #cfd8dc;
+  color: black;
+  border-block-start: width;
+  background-color: #f9e44e;
+}
+
+.reg_btn {
+  border: 1px solid #cfd8dc;
+  color: black;
+  border-block-start: width;
+}
+
+.reg_btn:hover {
+  border: 1px solid #cfd8dc;
+  color: black;
+  border-block-start: width;
+  background-color: #f9e44e;
+}
