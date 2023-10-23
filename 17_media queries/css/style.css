@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 24px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+/* @media screen and (max-width: 640px) and (min-width: 500px) */
+
+@media screen and (max-width: 640px) {
+  .text {
+    width: 300px;
+    color: red;
+    border-color: blueviolet;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .greeting {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .text {
+    width: 200px;
+    color: orange;
+    border-color: orange;
+  }
+}
+
+/* 1. Тип носителя (screen, print,tv и т.д.)*/
+/* 2. Логический оператор(and ... not) */
+/* 3. Медиа-функция(max-width, min-width и т.д.)  */
+/* https://htmlbook.ru/css/value/media */
+/* https://myresolutionis.ru/page/smapage.php */
+
+@media print {
+  .text {
+    color: green;
+  }
+}
